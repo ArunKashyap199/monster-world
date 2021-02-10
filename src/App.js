@@ -3,7 +3,13 @@ import './App.css';
 import {CardList} from "./components/card-list/card-list";
 import {SearchBox} from "./components/search-box/search-box.component";
 
+/*
+    This is our main components
+    => monsters is an array which getting data from the website.
 
+    => searchField is an state that refer to search component which is comparing the text to monster's name
+    and showing results according to that.
+*/
 class App extends React.Component {
     constructor (props) {
         super( props );
