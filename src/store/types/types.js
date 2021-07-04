@@ -1,0 +1,2 @@
+
+export const FETCH_MONSTER_DATA = "FETCH_MONSTER_DATA";
